@@ -6,8 +6,8 @@ class App
     public List<string> Doing = new List<string>();
     public bool pressedToExit = false;
 
-    public const string ToDoFilePath = "C:\\Code Connected\\Code\\c#\\ToDoListApp\\ToDoListApp\\todo.txt";
-    public const string DoingFilePath = "C:\\Code Connected\\Code\\c#\\ToDoListApp\\ToDoListApp\\doing.txt";
+    public const string ToDoFilePath = "todo.txt";
+    public const string DoingFilePath = "doing.txt";
     public App() {
         // reloading the file's info
         string toDoText = File.ReadAllText(ToDoFilePath);

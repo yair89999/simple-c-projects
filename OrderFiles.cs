@@ -42,7 +42,7 @@ namespace fileOrdering
         }
         public static void Main(string[] args)
         {
-            string path = "C:\\Code Connected\\Code\\c#\\fileOrdering\\dummy folder";
+            string path = "\\dummy folder";
             string orderedPath = path + "-ordered"; // same as path but with -ordered after
             string[] splited;
             Console.WriteLine("original path: " + path);
